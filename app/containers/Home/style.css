@@ -5,3 +5,22 @@
   flex-direction:column;
   min-height:100vh;
 }
+
+.chooseFile {
+  height: 3vh;
+}
+
+.submitButton {
+  display: flex;
+  flex-direction: column;
+  width: 8%;
+  height: 3vh;
+  font-size: 1.3em;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  width:100vw;
+  height: auto;
+}

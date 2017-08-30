@@ -59,9 +59,9 @@ export default class Home extends React.PureComponent {
       <div className="container">
         <Helmet title="Home" meta={[ { name: 'description', content: 'Description of Home' }]}/>
 
-        <input type="file" onChange={this.handlePhoto}/>
-        <input type="submit" value="submit" onClick={this.storePhoto}/>
-        <img src={this.state.preview} />
+        <input type="file" className="chooseFile" onChange={this.handlePhoto}/>
+        <input type="submit" className="submitButton" value="submit" onClick={this.storePhoto}/>
+        <img src={this.state.preview} className="image" />
       </div>
     );
   }
